@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    font-family: monospace;
+}
+button{
+    font-family: monospace;
+    text-align: center;
+    align-content: center;
+}
+.center-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+   
+}
+nav button {
+    font-family: monospace;
+    background-color: #fcfeff;
+    color: rgb(9, 9, 9);
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background-color: #007acc
+}
+h1 {
+    font-size: 2em; 
+  }
+.center-text{
+    text-align: center;
+}
+.center-justify-text {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 800px; 
+    padding: 0 20px; 
+}
+.center-justify-text {
+    text-align: center;
+}
+.slideshow {
+    position: relative;
+    width: 300px; /* Set the width of your slideshow container */
+    height: auto; /* Allow the container to adjust its height based on content */
+    margin: 0 auto;
+    overflow: hidden;
+}
+.image {
+    width: 100%;
+    height: 300px; /* Set the height of the image container */
+    background-image: url('project1.png'); /* Set the initial image URL */
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.text {
+    text-align: center;
+}
+#order {
+    text-align:center;
+    opacity: 1;
+    animation: bounce .3s infinite alternate;
+  }
+  @keyframes bounce {
+    to { transform: scale(1.2); }
+  }
